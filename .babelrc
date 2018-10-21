@@ -1,0 +1,18 @@
+{
+    "presets": [
+        ["env", {
+            "spec": true,
+            "useBuiltIns": false
+        }],
+        ["es3"]
+    ],
+    "plugins": [
+        ["module-resolver", {
+            "root": ["."],
+            "alias": {
+                "react": "nervjs",
+                "react-dom": "nervjs"
+            }
+        }]
+    ]
+}
